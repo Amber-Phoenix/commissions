@@ -1,0 +1,115 @@
+body {
+  background-color: #D3F6F3;
+  margin: 0;
+  padding-bottom: 1000px;
+}
+
+h1 {
+  padding: 10px;
+  padding-left: 20px;
+  padding-bottom: 0;
+  color: #BB7171;
+  text-align: center;
+  font-size: 225%;
+}
+
+span:hover {
+  background-color: #FBD1B7;
+}
+
+.header {
+  padding: 1px;
+  text-align: center;
+  background: #FEE9B2;
+  color: #BB7171;
+  font-size: 30px;
+  border-bottom-style: ridge;
+  border-bottom-width: 10px;
+  border-bottom-color: #FBD1B7;
+  height: 290px;
+  font-family: 'Ewert', cursive;
+}
+
+.burn {
+  text-align: center;
+  padding-right: 10px;
+  margin-top: 0;
+}
+
+p {
+  text-align: center;
+  padding: 10px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  top: -100px;
+}
+
+a {
+  text-decoration: none;
+  color: #BB7171;
+}
+
+.flags {
+  height: 110px;
+  width: 24.75%;
+  top:-100px;
+}
+.glow {
+  font-size: 30px;
+  color: #BB7171;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #b1e8ed, 0 0 40px #b1e8ed, 0 0 50px #b1e8ed, 0 0 60px #b1e8ed, 0 0 70px #b1e8ed;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #fa8282, 0 0 40px #fa8282, 0 0 50px #fa8282, 0 0 60px #fa8282, 0 0 70px #fa8282, 0 0 80px #fa8282;
+  }
+}
+h2 {
+  text-align: center;
+}
+h3 {
+  text-align: center;
+}
+.dempic {
+  border-radius: 100%;
+  position: relative;
+  margin-left: 10px;
+  height: 200px;
+}
+a {
+  text-align: center;
+}
+.ree {
+  position: relative;
+  margin-left: 10px;
+  height: 120px;
+}
+.middle-container {
+  font-family: 'Eczar', serif;
+  text-align: center;
+  color: grey;
+  font-size: 1.25rem
+}
+.bottom-container {
+  text-align: center;
+  font-family: 'Eczar', serif;
+  color: grey;
+  overflow: hidden;
+}
+hr {
+  border-style: dashed;
+  border-color: #FBD1B7;
+  width: 10%;
+	height: 6px;
+	background: url(http://ibrahimjabbari.com/images/hr-12.png) repeat-x 0 0;
+    border: 0;
+}
+.uwu {
+  font-size: 1.25rem
+}
