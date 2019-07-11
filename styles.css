@@ -102,6 +102,7 @@ a {
   font-family: 'Eczar', serif;
   color: grey;
   min-height: 100;
+  padding-top: 0;
 }
 hr {
   border-style: dashed;
@@ -112,7 +113,8 @@ hr {
     border: 0;
 }
 .uwu {
-  font-size: 1.25rem
+  font-size: 1.25rem;
+  padding-top: 4px;
 }
 .dee {
   width: 25%;
@@ -175,4 +177,22 @@ body {
 }
 .footer-link {
   margin: 10px 30px;
+}
+.phoenix {
+  top: -40px;
+  position: relative;
+  padding: 0
+}
+.udemy {
+  top: -45px;
+  position: relative;
+  padding: 0
+}
+.roblox {
+  top: -15px;
+  position: relative;
+  padding: 0
+}
+footer {
+  padding-top: 4px;
 }
